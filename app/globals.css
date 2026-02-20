@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-primary: #1A2B4A;
+  --color-accent: #2C7A7B;
+  --color-accent-hover: #236162;
+  --color-functional-white: #F8F9FA;
+  --color-functional-green: #38A169;
+  --color-functional-gray: #718096;
+  --color-clinical-border: #E2E8F0;
+
+  /* Fonts */
+  --font-heading: var(--font-inter);
+  --font-body: var(--font-source-sans);
+  --font-mono: var(--font-ibm-plex-mono);
+}
+
+:root {
+  /* Base body styles */
+  background-color: var(--color-functional-white);
+  color: var(--color-primary);
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  }
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.font-technical {
+  font-family: var(--font-mono);
+}
