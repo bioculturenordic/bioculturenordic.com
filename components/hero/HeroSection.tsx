@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "../ui/button";
-import { Microscope, Dna, Leaf } from "lucide-react";
+import { Microscope, Leaf } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import ScrollCanvas from "../product/ScrollCanvas";
@@ -49,30 +49,23 @@ export default function HeroSection() {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                         >
-                            <span className="text-accent font-mono text-sm tracking-wider mb-6 block uppercase">
-                                Get ready for the new EU legislation July 1, 2026
-                            </span>
-
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 font-heading leading-tight tracking-tight">
-                                Listeria Control for <br />
+                                Lactic Acid for <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/70">
                                     Food Production
                                 </span>
                             </h1>
 
                             <p className="text-lg md:text-xl text-gray-200 mb-10 font-body leading-relaxed max-w-2xl border-l-4 border-accent pl-6">
-                                Bioprotective cultures designed for food and processing environments.
+                                Naturally fermented L(+) Lactic Acid (E 270) in aqueous solution at 1-2% for fish and food processing.
                             </p>
 
                             <div className="flex flex-wrap gap-6 mb-16">
-                                <a href="/Product_Description_BCN01.pdf" download="Product_Description_BCN01.pdf">
+                                <a href="#contact">
                                     <Button size="lg" className="bg-accent hover:bg-accent-hover text-white min-w-[180px] h-14 text-lg">
-                                        Download Product Description
+                                        Request Technical Information
                                     </Button>
                                 </a>
-                                <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/10 min-w-[180px] h-14 text-lg">
-                                    View Efficacy Data
-                                </Button>
                             </div>
 
                             <div className="flex flex-wrap gap-8 border-t border-white/10 pt-8">
@@ -82,15 +75,11 @@ export default function HeroSection() {
                                 </div>
                                 <div className="flex items-center gap-3 text-gray-300">
                                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent"><Microscope size={20} /></div>
-                                    <span className="text-sm md:text-base font-medium">Scientifically Validated</span>
-                                </div>
-                                <div className="flex items-center gap-3 text-gray-300">
-                                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent"><Dna size={20} /></div>
-                                    <span className="text-sm md:text-base font-medium">Natural Origin</span>
+                                    <span className="text-sm md:text-base font-medium">GMP & HACCP Compliant</span>
                                 </div>
                                 <div className="flex items-center gap-3 text-gray-300">
                                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-accent"><Leaf size={20} /></div>
-                                    <span className="text-sm md:text-base font-medium">Chemical Free</span>
+                                    <span className="text-sm md:text-base font-medium">GMO-Free & Vegan</span>
                                 </div>
                             </div>
                         </motion.div>

@@ -24,8 +24,8 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BioCulture Nordic | BCN01 Bioprotective Cultures",
-  description: "Science-backed Listeria control for food production using verified bioprotective cultures.",
+  title: "BioCulture Nordic | Lactic Acid E 270",
+  description: "Natural L(+) Lactic Acid (E 270) ready-to-use aqueous solutions for acidity regulation and quality preservation in food and fish processing.",
 };
 
 export default function RootLayout({

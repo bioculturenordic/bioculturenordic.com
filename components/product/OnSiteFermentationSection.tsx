@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Check } from "lucide-react";
+import { Check } from "lucide-react";
 import ScrollCanvas from "./ScrollCanvas";
 
 export default function OnSiteFermentationSection() {
@@ -28,15 +28,15 @@ export default function OnSiteFermentationSection() {
                     {/* Content Block - Right Side */}
                     <div className="order-2">
                         <span className="inline-block px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded mb-6">
-                            On-Site Production
+                            Fermentation
                         </span>
                         <h2 className="text-4xl font-bold text-primary mb-2 font-heading">
-                            Your One-Click Fermentation Unit
+                            Controlled Fermentation Origin
                         </h2>
                         <div className="w-20 h-1.5 bg-accent mb-8"></div>
 
                         <p className="text-lg text-functional-gray mb-8">
-                            Take control of your bioprotection with our automated on-site fermentation unit. Designed for seamless integration into your facility, it ensures fresh, active cultures on demand.
+                            Our L(+) lactic acid (E 270) is manufactured under sterile, optimized conditions in BioCulture Nordic&apos;s advanced aseptic fermentation facilities. By utilizing non-GMO, QPS-listed lactic acid bacteria, we deliver a premium, non-synthetic preservative ready-to-use out of its container.
                         </p>
 
                         <ul className="space-y-6 mb-10">
@@ -45,8 +45,8 @@ export default function OnSiteFermentationSection() {
                                     <Check size={14} strokeWidth={3} />
                                 </div>
                                 <div>
-                                    <strong className="block text-primary">Plug & Play Installation</strong>
-                                    <span className="text-functional-gray text-sm">Easy installation using only a standard power cord. Compact design allows it to stand anywhere in your production area.</span>
+                                    <strong className="block text-primary">Aseptic Cleanroom Packaging</strong>
+                                    <span className="text-functional-gray text-sm">Packaged as a liquid in food-grade bags. All packaging is assembled in certified ISO-8 cleanrooms.</span>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -54,8 +54,8 @@ export default function OnSiteFermentationSection() {
                                     <Check size={14} strokeWidth={3} />
                                 </div>
                                 <div>
-                                    <strong className="block text-primary">Zero-Knowledge Operation</strong>
-                                    <span className="text-functional-gray text-sm">Ferment with a single click. Our automated system handles the complexity, removing the need for specialized microbiological expertise.</span>
+                                    <strong className="block text-primary">HACCP & GMP Production</strong>
+                                    <span className="text-functional-gray text-sm">Produced in strict compliance with European regulations (EC) 178/2002 and (EC) 852/2004, adhering to the highest food hygiene standards.</span>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -63,8 +63,8 @@ export default function OnSiteFermentationSection() {
                                     <Check size={14} strokeWidth={3} />
                                 </div>
                                 <div>
-                                    <strong className="block text-primary">Full Traceability & QC</strong>
-                                    <span className="text-functional-gray text-sm">Every batch is tracked via QR codes with generated reports and strict QC release criteria, ensuring consistent quality.</span>
+                                    <strong className="block text-primary">Rigorous Batch Traceability</strong>
+                                    <span className="text-functional-gray text-sm">Every production batch is fully documented and accompanied by a batch report and conformity certificates.</span>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -72,8 +72,8 @@ export default function OnSiteFermentationSection() {
                                     <Check size={14} strokeWidth={3} />
                                 </div>
                                 <div>
-                                    <strong className="block text-primary">Flexible Production</strong>
-                                    <span className="text-functional-gray text-sm">Controlled automated recipes allow you to ferment on demand, perfectly fitting your production and cleaning schedules.</span>
+                                    <strong className="block text-primary">Ready-To-Use Convenience</strong>
+                                    <span className="text-functional-gray text-sm">Available in 1-2% aqueous form, eliminating the need for user mixing, dilution, or handling of hazardous concentrates.</span>
                                 </div>
                             </li>
                             <li className="flex items-start gap-4">
@@ -81,16 +81,22 @@ export default function OnSiteFermentationSection() {
                                     <Check size={14} strokeWidth={3} />
                                 </div>
                                 <div>
-                                    <strong className="block text-primary">Fully Serviced Solution</strong>
-                                    <span className="text-functional-gray text-sm">Zero capital investment required. The unit is owned, guaranteed, and fully serviced by BioCulture Nordic—you only pay for the cultures.</span>
+                                    <strong className="block text-primary">Stable & Standardized Quality</strong>
+                                    <span className="text-functional-gray text-sm">Maintains optimal stability under standard storage conditions, ensuring consistent acidity regulation and food sensory improvement.</span>
+                                </div>
+                            </li>
+                            <li className="flex items-start gap-4">
+                                <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center text-accent mt-0.5 shrink-0">
+                                    <Check size={14} strokeWidth={3} />
+                                </div>
+                                <div>
+                                    <strong className="block text-primary">Improved Logistics</strong>
+                                    <span className="text-functional-gray text-sm">The final mixing can be performed on-site when provided with our fermentation unit. This improves logistics, and can be prepared on-demand when needed in production.</span>
                                 </div>
                             </li>
                         </ul>
 
-                        <a href="#" className="inline-flex items-center text-accent font-bold hover:text-accent-hover group text-sm">
-                            Request Technical Specifications
-                            <ArrowRight size={16} className="ml-2 transition-transform group-hover:translate-x-1" />
-                        </a>
+                        {/* Removed contact hyperlink per user request */}
                     </div>
 
                 </div>
