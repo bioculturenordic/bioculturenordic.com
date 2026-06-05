@@ -28,7 +28,7 @@ export default function SiteFooter() {
 
                     {/* Contact Col */}
                     <div>
-                        <h4 className="font-bold text-primary mb-6">Contact</h4>
+                        <h4 className="font-bold text-primary mb-3">Contact</h4>
                         <div className="text-functional-gray space-y-1 not-italic">
                             <p>Transformervej 14</p>
                             <p>2860 Søborg, Denmark</p>
@@ -36,11 +36,18 @@ export default function SiteFooter() {
                         </div>
                     </div>
                 </div>
+                {/* Link to smiley report */}
+                <div className="flex justify-center">
+                    <a href="https://www.findsmiley.dk/1506617" target="_blank" rel="noopener noreferrer" className="inline-block px-4 py-2 text-white">
+                        <img src="/images/Banner_groen_eng_99x32.gif" width="99" height="32" alt="Smiley Report" className="" />
+                    </a>
+                </div>
 
                 {/* Bottom Bar */}
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-functional-gray text-xs">
                     <p>© 2026 BioCulture Nordic. All rights reserved.</p>
                 </div>
+
             </div>
         </footer>
     );
