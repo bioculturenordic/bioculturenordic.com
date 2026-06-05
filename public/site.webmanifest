@@ -1,0 +1,36 @@
+{
+  "name": "BioCulture Nordic | Lactic Acid E 270",
+  "short_name": "BioCulture Nordic",
+  "description": "Natural L(+) Lactic Acid (E 270) ready-to-use aqueous solutions for acidity regulation and quality preservation in food and fish processing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "website",
+    "food"
+  ],
+  "lang": "en",
+  "dir": "ltr"
+}
